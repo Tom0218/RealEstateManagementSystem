@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #BEC0CD;
+}
+
+p {
+  font-size: 18pt;
+  margin-bottom: 2px;
+}
+
+i {
+  position: absolute;
+  font-size: 12pt;
+  right: 7px;
+}
+
+input {
+  width: 291px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  position: relative;
+}
+.header .box1 {
+  height: 98px;
+  width: 98px;
+  background: #475467;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+}
+.header .hyperlink {
+  width: 240px;
+  position: absolute;
+  bottom: 22px;
+  left: 339px;
+}
+.header .phoneNumber {
+  width: 122px;
+  position: absolute;
+  bottom: 25px;
+  right: 450px;
+}
+.header .headerTtext {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  right: 200px;
+  margin: 3px;
+  padding: 10px;
+  background-color: #475467;
+  border-radius: 5px;
+}
+
+.content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.content .inputArea {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+  position: relative;
+}
+.content .inputArea .checkboxSignup {
+  display: flex;
+}
+.content .inputArea .checkboxSignup span {
+  margin-top: 20px;
+}
+.content .inputArea button {
+  width: 150px;
+  height: 35px;
+  margin-left: 80px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #475467;
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: #BEC0CD;
+
+}
+
+.box{
+    height: 110px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #475467;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+i{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    font-size: 16pt;
+    right: 123px;
+}
+
+.Text{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.header{
+    width: 100vw;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    position: relative;
+    .square{
+        height: 98px;
+        width: 98px;
+        background: #475467;
+        position: absolute;
+        bottom: 20px;
+        left: 60px;
+    }
+    .hyperlink{
+        width: 240px;
+        position: absolute;
+        bottom: 22px;
+        left: 339px;
+    }
+    .phoneNumber{
+        width: 122px;
+        position: absolute;
+        bottom: 25px;
+        right: 450px;
+    }
+    .headerTtext{
+        position: absolute;
+        color: white;
+        bottom: 10px;
+        right: 200px;
+        margin: 3px;
+        padding: 10px;
+        background-color: #475467;
+        border-radius: 5px;
+    }
+
+    
+}
+.content{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    .sixBox{
+        height: 300px;
+        width: 800px;
+        margin-top: 10%;
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+}
